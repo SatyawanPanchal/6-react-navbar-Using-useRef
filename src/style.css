@@ -1,0 +1,30 @@
+.nav-center {
+    background-color: rgb(242, 204, 204);
+
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.toggle-button {
+    width: 40px;
+}
+
+.links , .social-links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 800px) {
+        {
+        display: none;
+       }
+       
+    }
